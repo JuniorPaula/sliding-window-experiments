@@ -29,7 +29,7 @@ int main() {
     long long native_time = measure([&]() {
       return minSubArrayLenNative(arr, target);
     });
-    cout << n << ",native_cpp," << native_time << endl;
+    cout << n << ",naive_cpp," << native_time << endl;
 
     // Sliding window algorithm benchmark - O(n)
     long long sliding_time = measure([&]() {

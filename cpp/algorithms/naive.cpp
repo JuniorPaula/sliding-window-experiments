@@ -11,7 +11,7 @@ int minSubArrayLenNative(const vector<int>& arr, int target) {
   int minLength = INT_MAX;
 
   for (int start = 0; start < n; ++start) {
-      int sum = 0;
+      long long sum = 0;
       for (int end = start; end < n; ++end) {
           sum += arr[end];
           if (sum >= target) {
