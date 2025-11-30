@@ -10,7 +10,7 @@ func BenchmarkNative_1e4(b *testing.B) {
 	target := 20000
 
 	for b.Loop() {
-		algoritms.MinSubArrayLenNative(arr, target)
+		algoritms.MinSubArrayLenNaive(arr, target)
 	}
 }
 

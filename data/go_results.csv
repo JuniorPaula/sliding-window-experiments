@@ -1,0 +1,11 @@
+n,algorithm,time_ns
+1000,native_go,656592
+1000,sliding_go,1788
+5000,native_go,7497226
+5000,sliding_go,3634
+10000,native_go,27294525
+10000,sliding_go,6776
+50000,native_go,570010760
+50000,sliding_go,32152
+100000,native_go,2260536832
+100000,sliding_go,73670

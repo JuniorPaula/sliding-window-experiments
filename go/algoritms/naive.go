@@ -2,7 +2,7 @@ package algoritms
 
 import "math"
 
-func MinSubArrayLenNative(arr []int, target int) int {
+func MinSubArrayLenNaive(arr []int, target int) int {
 	n := len(arr)
 	minLen := math.MaxInt32
 
