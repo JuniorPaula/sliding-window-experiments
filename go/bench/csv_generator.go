@@ -32,7 +32,7 @@ func main() {
 		nativeTime := measure(func() int {
 			return algoritms.MinSubArrayLenNaive(arr, target)
 		})
-		results = append(results, Result{N: n, Algo: "native_go", TimeNs: nativeTime})
+		results = append(results, Result{N: n, Algo: "naive_go", TimeNs: nativeTime})
 
 		// Measure Sliding Window - O(n)
 		slidingTime := measure(func() int {
