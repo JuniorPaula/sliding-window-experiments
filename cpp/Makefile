@@ -5,7 +5,8 @@ all:
 	@echo "Bin: cpp/bench/build/benchmark"
 
 run:
-	@./bench/build/benchmark
+	@./bench/build/benchmark > ../data/cpp_results.csv
+	@echo "Run OK"
 
 clean:
 	@rm -rf bench/build
