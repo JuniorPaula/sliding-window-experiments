@@ -1,0 +1,18 @@
+# build folders
+build/
+*/build/
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+*.exe
+benchmark
+*.out
+
+# Python cache
+__pycache__/
+*.pyc
+
+.vscode/

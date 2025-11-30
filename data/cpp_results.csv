@@ -1,0 +1,11 @@
+n,algoritm,time_ns
+1000,native_cpp,2316697
+1000,sliding_cpp,6301
+5000,native_cpp,46022664
+5000,sliding_cpp,17657
+10000,native_cpp,171492885
+10000,sliding_cpp,29919
+50000,native_cpp,3947052375
+50000,sliding_cpp,163191
+100000,native_cpp,15786619928
+100000,sliding_cpp,366058
