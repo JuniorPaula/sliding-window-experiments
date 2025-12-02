@@ -96,6 +96,10 @@ Ela aparece em:
  
 Praticamente qualquer aplicação moderna que trabalha com fluxos contínuos se beneficia dessa técnica.
 
+## Artigo Completo
+O artigo técnico com toda a explicação, teoria, análise estatística e gráficos está disponível em:
+[https://www.juniorpaula.com.br/articles/sliding-window-na-pratica-uma-investigacao-cientifica-entre-go-e-cpp](https://www.juniorpaula.com.br/articles/sliding-window-na-pratica-uma-investigacao-cientifica-entre-go-e-cpp)
+
 ## Autor
 **Junior Paula**  
 Desenvolvedor Backend | Golang, C++, Rust, Sistemas Distribuídos e Algoritmos  
